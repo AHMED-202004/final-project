@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/about', function () {
-    $name = 'mona';
+    $name = 'ahmed';
     $departments =[
         '1' => 'Tichnical',
         '2' => 'Financial',
